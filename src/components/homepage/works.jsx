@@ -15,28 +15,25 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
-								src="./facebook.png"
-								alt="facebook"
+								src="./logo_hrm.png"
+								alt="logo hrm"
 								className="work-image"
 							/>
-							<div className="work-title">Facebook</div>
-							<div className="work-subtitle">
-								Software Engineer
+							<div className="work-title">HRM Group</div>
+							<div className="work-subtitle">Developer</div>
+							<div className="work-duration">
+								11/2024 - Present
 							</div>
-							<div className="work-duration">2019 - Present</div>
 						</div>
-
-						<div className="work">
-							<img
-								src="./twitter.png"
-								alt="twitter"
-								className="work-image"
-							/>
-							<div className="work-title">Twitter</div>
-							<div className="work-subtitle">
-								Software Engineer
-							</div>
-							<div className="work-duration">2019 - Present</div>
+						<div className="project-description">
+							Contributed to the development of large-scale web
+							applications, primarily focusing on front-end
+							features using React and MUI. Frequently
+							collaborated with the back-end team, integrating
+							REST APIs and handle data flow. Gained experience
+							working with various database technologies across
+							different projects, including Supabase, Firebase,
+							PostgreSQL, and MySQL.
 						</div>
 					</div>
 				}
