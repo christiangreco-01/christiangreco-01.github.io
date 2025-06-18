@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/christiangreco-01.github.io/static/css/main.22a03ba2.css",
-    "main.js": "/christiangreco-01.github.io/static/js/main.dd3c2d7b.js",
-    "static/js/787.512dd3f2.chunk.js": "/christiangreco-01.github.io/static/js/787.512dd3f2.chunk.js",
-    "index.html": "/christiangreco-01.github.io/index.html",
-    "main.22a03ba2.css.map": "/christiangreco-01.github.io/static/css/main.22a03ba2.css.map",
-    "main.dd3c2d7b.js.map": "/christiangreco-01.github.io/static/js/main.dd3c2d7b.js.map",
-    "787.512dd3f2.chunk.js.map": "/christiangreco-01.github.io/static/js/787.512dd3f2.chunk.js.map"
+    "main.css": "/static/css/main.22a03ba2.css",
+    "main.js": "/static/js/main.0bb18739.js",
+    "static/js/787.512dd3f2.chunk.js": "/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/index.html",
+    "main.22a03ba2.css.map": "/static/css/main.22a03ba2.css.map",
+    "main.0bb18739.js.map": "/static/js/main.0bb18739.js.map",
+    "787.512dd3f2.chunk.js.map": "/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22a03ba2.css",
-    "static/js/main.dd3c2d7b.js"
+    "static/js/main.0bb18739.js"
   ]
 }
