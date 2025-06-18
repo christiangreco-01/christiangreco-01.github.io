@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/christiangreco-01/index.jsx/static/css/main.fa7d76ae.css",
-    "main.js": "/christiangreco-01/index.jsx/static/js/main.826efaed.js",
-    "static/js/787.512dd3f2.chunk.js": "/christiangreco-01/index.jsx/static/js/787.512dd3f2.chunk.js",
-    "index.html": "/christiangreco-01/index.jsx/index.html",
-    "main.fa7d76ae.css.map": "/christiangreco-01/index.jsx/static/css/main.fa7d76ae.css.map",
-    "main.826efaed.js.map": "/christiangreco-01/index.jsx/static/js/main.826efaed.js.map",
-    "787.512dd3f2.chunk.js.map": "/christiangreco-01/index.jsx/static/js/787.512dd3f2.chunk.js.map"
+    "main.css": "/christiangreco-01.github.io/static/css/main.fa7d76ae.css",
+    "main.js": "/christiangreco-01.github.io/static/js/main.f54d8581.js",
+    "static/js/787.512dd3f2.chunk.js": "/christiangreco-01.github.io/static/js/787.512dd3f2.chunk.js",
+    "index.html": "/christiangreco-01.github.io/index.html",
+    "main.fa7d76ae.css.map": "/christiangreco-01.github.io/static/css/main.fa7d76ae.css.map",
+    "main.f54d8581.js.map": "/christiangreco-01.github.io/static/js/main.f54d8581.js.map",
+    "787.512dd3f2.chunk.js.map": "/christiangreco-01.github.io/static/js/787.512dd3f2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fa7d76ae.css",
-    "static/js/main.826efaed.js"
+    "static/js/main.f54d8581.js"
   ]
 }
