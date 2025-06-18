@@ -1,28 +1,28 @@
 const INFO = {
 	main: {
-		title: "Reactfolio by truethari",
-		name: "Tharindu N.",
-		email: "mail@tharindu.dev",
+		title: "Reactfolio by Christian_Greco",
+		name: "Christian Greco",
+		email: "christiangreco2001@gmail.com",
 		logo: "../logo.png",
 	},
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
-		linkedin: "https://linkedin.com/",
-		instagram: "https://instagram.com/",
+		github: "https://github.com/christiangreco-01/portfolio",
+		linkedin: "https://www.linkedin.com/in/christian-greco-bb811430b",
+		instagram: "https://www.instagram.com/christian_grecoo/?next=%2F",
 		stackoverflow: "https://stackoverflow.com/",
 		facebook: "https://facebook.com/",
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer, and amateur astronaut.",
+		title: "Front-end developer",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"I'm a frontend developer with a strong passion for technology and continuous learning. I’m naturally curious, proactive, and have excellent communication and teamwork skills.",
 	},
 
 	about: {
-		title: "I’m Tharindu N. I live in Sri Lanka, where I design the future.",
+		title: "My Skills",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -35,48 +35,54 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Web app for managing a B&B",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"The app allows users to manage bookings and expenses, with interactive revenue and guest insights through PivoChart. Built with React, MUI, Formik, and Yup, it stores data and handles authentication via Supabase for secure and efficient usage.",
+			logo: "logo_react.png",
+			linkText: "View Project",
+			link: "https://github.com",
+		},
+
+		{
+			title: "Netflix Clone – Personal Project",
+			description:
+				"This early project replicates Netflix’s interface using HTML, CSS, and JavaScript to strengthen core web development skills. It includes a simulated auth system, plan selection, dynamic movie loading via TheMovieDB API, and local storage for user data.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
 
 		{
-			title: "Project 2",
+			title: "Training - Company Page",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
+				"Front-end training project focused on replicating typical website layouts — simulation Company' single page — using HTML and CSS3.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/christiangreco-01/training_single_page_Fylo",
 		},
-
 		{
-			title: "Project 4",
+			title: "Training - Subscription Plans",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Front-end training project focused on replicating typical website layouts — final summary of a music service subscription — using HTML and CSS3.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/christiangreco-01/training_subscription_plans",
 		},
-
 		{
-			title: "Project 5",
+			title: "Training - Points Resume",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+				"Front-end training project focused on replicating typical website layouts — website score summary screen — using HTML and CSS3.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/christiangreco-01/training_single_page_Fylo",
+		},
+		{
+			title: "Training - Recipe Page",
+			description:
+				"Front-end training project focused on replicating typical website layouts — cooking recipe on onepage format — using HTML and CSS3.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+			linkText: "View Project",
+			link: "https://github.com/christiangreco-01/training_recipe_page",
 		},
 	],
 };

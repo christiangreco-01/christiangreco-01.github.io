@@ -1,12 +1,15 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
 
-import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
+import {
+	faMailBulk,
+	faPaperPlane,
+	faBook,
+} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-	faTwitter,
+	faLinkedinIn,
 	faGithub,
-	faStackOverflow,
 	faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
@@ -22,6 +25,7 @@ import SEO from "../data/seo";
 import myArticles from "../data/articles";
 
 import "./styles/homepage.css";
+import Card from "../components/common/card";
 
 const Homepage = () => {
 	const [stayLogo, setStayLogo] = useState(false);
@@ -104,8 +108,8 @@ const Homepage = () => {
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
 										<img
-											src="homepage.jpg"
-											alt="about"
+											src="christian_greco_photo.jpg"
+											alt="my_photo"
 											className="homepage-image"
 										/>
 									</div>
@@ -115,12 +119,12 @@ const Homepage = () => {
 
 						<div className="homepage-socials">
 							<a
-								href={INFO.socials.twitter}
+								href={INFO.socials.linkedin}
 								target="_blank"
 								rel="noreferrer"
 							>
 								<FontAwesomeIcon
-									icon={faTwitter}
+									icon={faLinkedinIn}
 									className="homepage-social-icon"
 								/>
 							</a>
@@ -134,7 +138,7 @@ const Homepage = () => {
 									className="homepage-social-icon"
 								/>
 							</a>
-							<a
+							{/* <a
 								href={INFO.socials.stackoverflow}
 								target="_blank"
 								rel="noreferrer"
@@ -143,7 +147,7 @@ const Homepage = () => {
 									icon={faStackOverflow}
 									className="homepage-social-icon"
 								/>
-							</a>
+							</a> */}
 							<a
 								href={INFO.socials.instagram}
 								target="_blank"
@@ -170,8 +174,8 @@ const Homepage = () => {
 							<AllProjects />
 						</div>
 
-						<div className="homepage-after-title">
-							<div className="homepage-articles">
+						{/* <div className="homepage-after-title"> */}
+						{/* <div className="homepage-articles">
 								{myArticles.map((article, index) => (
 									<div
 										className="homepage-article"
@@ -186,11 +190,71 @@ const Homepage = () => {
 										/>
 									</div>
 								))}
-							</div>
+							</div> */}
 
-							<div className="homepage-works">
-								<Works />
-							</div>
+						<div className="homepage-works">
+							<Works />
+						</div>
+						{/* </div> */}
+						<div className="homepage-works">
+							<Card
+								icon={faBook}
+								title="Instruction"
+								body={
+									<div className="works-body">
+										<div className="work">
+											<img
+												src="./logo_uniurb.png"
+												alt="logo hrm"
+												className="work-image"
+											/>
+											<div className="work-title">
+												Graduation - Urbino University
+											</div>
+											<div className="work-subtitle">
+												Applied Computer Science (IT)
+											</div>
+											<div className="work-duration">
+												09/2020 - 04/2024
+											</div>
+										</div>
+										<div className="work">
+											<img
+												src="./logo_odisee.jpg"
+												alt="logo hrm"
+												className="work-image"
+											/>
+											<div className="work-title">
+												Erasmus in Brussels - Odisee
+												University
+											</div>
+											<div className="work-subtitle">
+												Business Management
+											</div>
+											<div className="work-duration">
+												10/2023 - 02/2024
+											</div>
+										</div>
+										<div className="work">
+											<img
+												src="./logo_itis_maglie.png"
+												alt="logo hrm"
+												className="work-image"
+											/>
+											<div className="work-title">
+												High School in Computer Science
+											</div>
+											<div className="work-subtitle">
+												I.T.I.S "Enrico Mattei" in
+												Maglie(LE)
+											</div>
+											<div className="work-duration">
+												2015 - 2020
+											</div>
+										</div>
+									</div>
+								}
+							/>
 						</div>
 
 						<div className="page-footer">
